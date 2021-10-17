@@ -9,7 +9,6 @@ public class BoardScript : MonoBehaviour
     public GameObject tilePefab;
     public GameObject borderTilePrefab;
     public GameObject boardTilePrefab;
-    public GameObject tetromino7bag;
     public GameObject itemSlot;
     public GameObject panelGameOver, panelPressStart;
 
@@ -226,7 +225,7 @@ public class BoardScript : MonoBehaviour
 
     void ItemRoulette()
     {
-        int rand = Random.Range(0, 4);
+        int rand = Random.Range(0, 10);
 
 
         switch (rand)
